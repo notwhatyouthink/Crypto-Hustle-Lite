@@ -1,1 +1,52 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/_yAKNB1S)
+
+# Web Development Project 5 - *Crypto Hustle Lite*
+
+Submitted by: **Sharnica Jeudy Z23582376**
+
+This web app: **A React cryptocurrency dashboard displaying the top 50 coins with real-time prices from the CryptoCompare API, featuring dynamic search functionality that filters results as users type, and a fixed side navigation panel showing the latest crypto news articles with clickable links.**
+
+Time spent: **3** hours spent in total
+
+## Required Features
+
+The following **required** functionality is completed:
+
+- [x] **User can view a list of at least 30 cryptocurrencies, including the image, name, and price of the coin in US dollars**
+- [x] **User can search for a specific coin in the list of cryptocurrencies by symbol**
+
+The following **optional** features are implemented:
+
+- [x] User can view a list of cryptocurrency news articles on a separate pane in the page
+
+## Video Walkthrough
+
+Here's a walkthrough of implemented user stories:
+
+<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
+<!-- Replace this with whatever GIF tool you used! -->
+GIF created with ...  
+<!-- Recommended tools:
+[Kap](https://getkap.co/) for macOS
+[ScreenToGif](https://www.screentogif.com/) for Windows
+[peek](https://github.com/phw/peek) for Linux. -->
+
+## Notes
+
+What I learned is using useEffect hook with dependency arrays to control API call timing, making multiple asynchronous API calls (coin list, individual prices, news), implementing search functionality with Object.values() and array filtering, securing API keys with environment variables, creating reusable components that make their own API calls, passing props between components, conditional rendering with ternary operators, handling asynchronous data loading states, and styling with fixed positioning and flexbox layouts for side navigation.
+
+## License
+
+    Copyright [2026] [Sharnica Jeudy]
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+        http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
