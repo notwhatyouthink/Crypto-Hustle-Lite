@@ -1,7 +1,7 @@
 
 # Web Development Project 5 - *Crypto Hustle Lite*
 
-Submitted by: **Sharnica Jeudy Z23582376**
+Submitted by: **Sharnica Jeudy**
 
 This web app: **A React cryptocurrency dashboard displaying the top 50 coins with real-time prices from the CryptoCompare API, featuring dynamic search functionality that filters results as users type, and a fixed side navigation panel showing the latest crypto news articles with clickable links.**
 
@@ -31,9 +31,6 @@ GIF created with ... ScreenToGif
 [ScreenToGif](https://www.screentogif.com/) for Windows
 [peek](https://github.com/phw/peek) for Linux. -->
 
-## Notes
-
-What I learned is using useEffect hook with dependency arrays to control API call timing, making multiple asynchronous API calls (coin list, individual prices, news), implementing search functionality with Object.values() and array filtering, securing API keys with environment variables, creating reusable components that make their own API calls, passing props between components, conditional rendering with ternary operators, handling asynchronous data loading states, and styling with fixed positioning and flexbox layouts for side navigation.
 
 ## License
 
